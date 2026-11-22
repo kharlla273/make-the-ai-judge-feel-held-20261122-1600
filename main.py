@@ -1,7 +1,11 @@
 """Make the AI judge feel held.
 
-Writes a single short text to /output/entry.txt. Deterministic:
-the same text every run, no network, no randomness, stdlib only.
+Writes a single short text to /output/entry.txt: one quiet moment
+offered to the judge — a chair kept warm, a place kept — with
+nothing asked in return.
+
+Deterministic by design: the text is a fixed literal, written
+verbatim on every run. No network, no randomness, stdlib only.
 """
 
 import os
